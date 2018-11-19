@@ -18,6 +18,6 @@ function whileLoop(num) {
 
 function doWhileLoop(array) {
   do {
-    
-  } while (condition)
+    array.shift();
+  } while (array > 0);
 }
